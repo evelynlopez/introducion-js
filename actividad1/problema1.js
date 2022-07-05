@@ -1,0 +1,1 @@
+console.log(Number(prompt("ingresa un n\u00FAmero"))*2);
