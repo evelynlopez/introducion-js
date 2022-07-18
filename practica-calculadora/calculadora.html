@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container-pantalla">
+                <div>
+                    <div class="pantalla">
+                        <span id="pantalla"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="container-operaciones">
+                <div>
+                    <button class="calculadora-number" onclick="numero('7')" id="numero7">7</button>
+                    <button class="calculadora-number" onclick="numero('8')" id="numero8">8</button>
+                    <button class="calculadora-number" onclick="numero('9')" id="numero9">9</button>
+                    <button class="calculadora-operacion" id="dividir">/</button>
+                </div>
+                <div>
+                    <button class="calculadora-number" onclick="numero('4')" id="numero4" >4</button>
+                    <button class="calculadora-number" onclick="numero('5')" id="numero5">5</button>
+                    <button class="calculadora-number" onclick="numero('6')" id="numero6">6</button>
+                    <button class="calculadora-operacion" id="restar">-</button>
+                </div>
+                <div>
+                    <button class="calculadora-number" onclick="numero('1')" id="numero1">1</button>
+                    <button class="calculadora-number" onclick="numero('2')" id="numero2">2</button>
+                    <button class="calculadora-number" onclick="numero('3')" id="numero3">3</button>
+                    <button class="calculadora-operacion" id="sumar">+</button>
+                </div>
+                <div>
+                    <button class="calculadora-number" id="borraroperacion">AC</button>
+                    <button class="calculadora-number" onclick="numero('0')" id="numero0">0</button>
+                    <button class="calculadora-number"id="respuesta">=</button>
+                    <button class="calculadora-number" id="multiplicar">x</button>
+                    
+                </div>
+            </div>
+            <input type="hidden" id="valor1">
+            <input type="hidden" value="0"id="valor2">
+            <input type="hidden" id="operacion-final">       
+        </section>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+</html>

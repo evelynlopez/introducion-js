@@ -1,0 +1,37 @@
+section {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    background: black;
+    border: 0px !important;
+    border-radius: 4px;
+    padding: 16px;
+}
+div.container-pantalla div.pantalla {
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+    outline: none!important;
+    font-family: cursive;
+    border-bottom: 1px solid#fff;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+button.calculadora-number, .calculadora-operacion {
+    width: 70px;
+    height: 70px;
+    background-color: #000;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+button.calculadora-number:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+button.calculadora-operacion:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
